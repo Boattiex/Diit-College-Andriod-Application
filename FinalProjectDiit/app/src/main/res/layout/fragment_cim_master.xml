@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".CimMasterFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/image_cim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="Image_Cim"
+            android:src="@drawable/img_cim" />
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/image_cim"
+            android:text="Title_Cim_Master"
+            android:textSize="20sp"
+            android:textColor="@color/colorTextTitleCourse"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/txtTitleImportance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="ความสำคัญ"
+            android:layout_below="@+id/txtTitle"
+            android:textSize="18sp"
+            android:textColor="@color/colorTextTitleCourse"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/txtImportanceCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/txtTitleImportance"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:id="@+id/txtTitleAboutCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="เกี่ยวกับหลักสูตร"
+            android:layout_below="@+id/txtImportanceCourse"
+            android:textSize="18sp"
+            android:textColor="@color/colorTextTitleCourse"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/txtAboutCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/txtTitleAboutCourse"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:id="@+id/txtTitleWhatYouGet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="คุณจะได้อะไรบ้าง"
+            android:layout_below="@+id/txtAboutCourse"
+            android:textSize="18sp"
+            android:textColor="@color/colorTextTitleCourse"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/txtWhatYouGet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/txtTitleWhatYouGet"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            />
+
+        <Button
+            android:id="@+id/button_gotoWeb_Cim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="50dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/txtWhatYouGet"
+            android:text="คลิกเพื่อดูรายละเอียดหลักสูตร" />
+
+    </RelativeLayout>
+</ScrollView>

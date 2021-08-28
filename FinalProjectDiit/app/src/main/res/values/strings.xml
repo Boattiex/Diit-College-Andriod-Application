@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Diit RSU</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="Facuty_name">วิทยาลัยนวัตกรรมดิจิทัลและเทคโนโลยี</string>
+    <string name="College_name">มหาวิทยาลัยรังสิต</string>
+    <string name="image_logo1_Des">Image_logo1</string>
+    <string name="nav_text_Home">หน้าหลัก</string>
+    <string name="nav_text_Detail">ข้อมูลวิทยาลัย</string>
+    <string name="nav_text_Course">หลักสูตรการศึกษา</string>
+    <string name="nav_text_Dm">สอบถามข้อมูลเพิ่มเติม</string>
+    <string name="nav_text_Map">ข้อมูลที่ตั้งมหาวิทยาลัย</string>
+    <string name="text_detail_1">สาห์นคณบดี</string>
+    <string name="text_detail_2">โครงสร้างองค์กร</string>
+    <string name="text_courses_doctor">ปริญญาเอก</string>
+    <string name="text_courses_bachelor">ปริญญาตรี</string>
+    <string name="nav_home_text">หน้าหลัก</string>
+    <string name="text_courses_master">ปริญญาโท</string>
+    <string name="nav_text_quiz">Quiz!: คุณเหมาะกับสาขาไหนบ้างในคณะ DIIT ม.รังสิต (ปริญญาตรี)?</string>
+    <string name="text_text_other">อื่นๆ</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_text_quiz">กดปุ่มเพื่อเริ่มทำ Quiz!</string>
+</resources>

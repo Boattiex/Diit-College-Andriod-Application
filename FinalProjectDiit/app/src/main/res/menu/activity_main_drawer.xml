@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"/>
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="@string/nav_text_Home" />
+    <item
+        android:id="@+id/nav_notification"
+        android:icon="@drawable/ic_notification"
+        android:title="การแจ้งเตือนกิจกรรมและข่าวสาร" />
+
+    <item android:title="@string/nav_text_Detail">
+        <menu>
+            <item
+                android:id="@+id/nav_kanabodee"
+                android:icon="@drawable/ic_detail"
+                android:title="@string/text_detail_1" />
+            <item
+                android:id="@+id/nav_structure"
+                android:icon="@drawable/ic_structure"
+                android:title="@string/text_detail_2" />
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_text_Course" >
+        <menu>
+            <item
+                android:id="@+id/nav_courses_Bachelor"
+                android:icon="@drawable/ic_bachelor"
+                android:title="@string/text_courses_bachelor" />
+            <item
+                android:id="@+id/nav_courses_Master"
+                android:icon="@drawable/ic_master"
+                android:title="@string/text_courses_master" />
+            <item
+                android:id="@+id/nav_courses_Doctor"
+                android:icon="@drawable/ic_master"
+                android:title="@string/text_courses_doctor" />
+        </menu>
+    </item>
+    <item android:title="@string/text_text_other">
+        <menu>
+            <item
+                android:id="@+id/nav_quiz"
+                android:icon="@drawable/ic_quiz"
+                android:title="@string/nav_text_quiz" />
+            <item
+                android:id="@+id/nav_dm"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="@string/nav_text_Dm" />
+            <item
+                android:id="@+id/nav_map"
+                android:icon="@android:drawable/ic_dialog_map"
+                android:title="@string/nav_text_Map" />
+        </menu>
+    </item>
+</menu>

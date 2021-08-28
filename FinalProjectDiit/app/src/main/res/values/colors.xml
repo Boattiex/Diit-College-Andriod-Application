@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#353434</color>
+    <color name="colorPrimaryDark">#484949</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorTextTitleCourse">#3F51B5</color>
+    <color name="colorStructureTitleCourse">#79FDCBDF</color>
+    <color name="colorStructureCourseBG">#EDEDF0</color>
+    <color name="colorStructureLine">#79DFDDDD</color>
+</resources>

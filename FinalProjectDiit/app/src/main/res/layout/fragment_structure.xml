@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+
+    <ImageView
+        android:id="@+id/imageView_structure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/structure_pic" />
+
+    <TextView
+        android:id="@+id/textview_titile_structure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:text="||โครงสร้างองค์กร"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="50dp"
+        android:layout_below="@+id/imageView_structure"
+        android:textColor="@color/colorTextTitleCourse"
+        android:textStyle="bold|italic"
+        />
+
+</RelativeLayout>
+</ScrollView>
