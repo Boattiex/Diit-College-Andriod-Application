@@ -1,6 +1,7 @@
 # Diit-College-Andriod-Application
 Andriod Application for College of Digital Innovation Technology (Year: 2019)
 
+Duo project with my friend Thanawit In-um!
 
 This Project application was created for College of Digital Innovation Technology (DIIT), Rangsit University
 
